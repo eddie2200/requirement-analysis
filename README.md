@@ -12,14 +12,14 @@ The objective of this project is to enhance a professional developer’s ability
 ## What is Requirement Analysis?
 Requirement Analysis is the process of identifying, gathering, documenting, and analyzing the needs and expectations of stakeholders for a software system. It ensures that the development team clearly understands what is to be built, why it is needed, and how it should function.
 
-###The process involves:
+### The process involves:
 
 - Requirement Gathering: Collecting input from clients, users, and stakeholders.
 - Requirement Documentation: Structuring requirements into understandable formats (e.g., Software Requirement Specification (SRS)).
 - Requirement Validation: Ensuring requirements are correct, complete, feasible, and aligned with business goals.
 - Requirement Management: Tracking and updating requirements as the project evolves.
 
-###Importance of Requirement Analysis in the SDLC
+### Importance of Requirement Analysis in the SDLC
 Requirement Analysis plays a foundational role in the Software Development Lifecycle (SDLC). Its importance can be summarized as follows:
 
 1. Defines Project Scope
