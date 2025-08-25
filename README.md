@@ -43,3 +43,17 @@ Minimizes misunderstandings and misaligned expectations.
 - Requirement Validation: Ensuring requirements are correct, complete, feasible, and aligned with business goals.
 - Requirement Elicitation: The process of gathering requirements from stakeholders through techniques like interviews, surveys, and observation.
 - Requirement Validation: The process of ensuring that gathered requirements are accurate, complete, feasible, and aligned with business goals.
+## Types of Requirements
+There are two requirements for booking management project and they ae: 
+### Functional Requirements 
+### Non-functional Requirements
+## Use Case Diagrams
+***Use Case Diagrams*** are visual representations in UML (Unified Modeling Language) that show the interactions between actors (users or external systems) and a system to achieve specific goals (use cases). They focus on what the system should do rather than how it is implemented.
+
+### Benefits of Use Case Diagrams
+- Clarity: Provide a simple, high-level view of system functionality.
+- Communication: Bridge the gap between technical teams and non-technical stakeholders.
+- Requirement Capture: Help identify functional requirements and system boundaries.
+- Prioritization: Make it easier to see which features are most critical to users.
+- Documentation: Serve as part of the requirement specification for future reference.
+- Validation: Ensure that all user interactions and goals are considered during analysis.
