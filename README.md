@@ -80,7 +80,7 @@ User does not have an account → chooses not to create one → navigates homepa
 
 User logs in (or browses homepage) → searches for a BnB → no suitable results → system returns user to homepage.
 ### actors
--Users
--System admin managers
--external systems eg: payment gateway for transaction and confirmation
+- Users
+- System admin managers
+- external systems eg: payment gateway for transaction and confirmation
 - external stystems 2 eg: cloud back up for data storage
