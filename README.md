@@ -84,3 +84,31 @@ User logs in (or browses homepage) → searches for a BnB → no suitable result
 - System admin managers
 - external systems eg: payment gateway for transaction and confirmation
 - external stystems 2 eg: cloud back up for data storage
+## Acceptance Criteria
+Acceptance criteria are the predefined conditions that a software product or feature must meet to be considered complete and acceptable by stakeholders. They ensure that requirements are clear, testable, and measurable, bridging the gap between business needs and technical implementation.
+
+### Importance:
+
+- Provide clarity on what the system should do.
+
+- Help in avoiding misunderstandings between stakeholders, developers, and testers.
+
+- Form the basis for test cases and quality assurance.
+
+- Allow teams to determine the “done” status of a feature.
+
+- Ensure the system meets user expectations and business goals.
+
+### Example: Acceptance Criteria for Checkout Feature
+
+Feature: Checkout in the Booking Management System
+
+### Acceptance Criteria:
+
+- User must be logged in to proceed with checkout.
+- System must display the booking summary (property details, price, dates).
+- User can select a payment method (credit card, mobile money, PayPal, etc.).
+- System must securely process the payment via an external payment gateway.
+- A booking confirmation page must be shown upon successful payment.
+- User must receive an email confirmation within 5 minutes.
+- If payment fails, user must see an error message and retry option.
