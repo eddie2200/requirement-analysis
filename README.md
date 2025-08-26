@@ -57,6 +57,30 @@ There are two requirements for booking management project and they ae:
 - Prioritization: Make it easier to see which features are most critical to users.
 - Documentation: Serve as part of the requirement specification for future reference.
 - Validation: Ensure that all user interactions and goals are considered during analysis.
-## Use Case Diagram
-/c/Users/user/Downloads/alx-booking-uc.png
 
+/c/Users/user/Downloads/alx-booking-uc.png
+### Cases
+1. User with an account → Books and Pays
+
+User logs in → navigates to homepage → searches for a BnB → finds desired BnB → books and completes payment successfully.
+
+2. User with an account → Does Not Pay
+
+User logs in → searches for a BnB → finds desired BnB → attempts booking but does not pay → system returns user to homepage.
+
+3. New User → Account Creation Path
+
+User does not have an account → creates a new account → logs in → follows flow of Case 1 (books and pays) OR follows flow of Case 2 (does not pay).
+
+4. Guest User → Must Sign Up/Log In Before Booking
+
+User does not have an account → chooses not to create one → navigates homepage and finds a BnB → system prompts sign-up/log-in before allowing booking.
+
+5. User Cannot Find Desired BnB
+
+User logs in (or browses homepage) → searches for a BnB → no suitable results → system returns user to homepage.
+### actors
+-Users
+-System admin managers
+-external systems eg: payment gateway for transaction and confirmation
+- external stystems 2 eg: cloud back up for data storage
