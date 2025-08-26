@@ -58,7 +58,7 @@ There are two requirements for booking management project and they ae:
 - Documentation: Serve as part of the requirement specification for future reference.
 - Validation: Ensure that all user interactions and goals are considered during analysis.
 
-/c/Users/user/Downloads/alx-booking-uc.png
+alx-booking-uc.png
 ### Cases
 1. User with an account → Books and Pays
 
