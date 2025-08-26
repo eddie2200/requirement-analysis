@@ -58,4 +58,5 @@ There are two requirements for booking management project and they ae:
 - Documentation: Serve as part of the requirement specification for future reference.
 - Validation: Ensure that all user interactions and goals are considered during analysis.
 ## Use Case Diagram
-![Booking System Use Case Diagram](./images/alx-booking-uc.png)
+/c/Users/user/Downloads/alx-booking-uc.png
+
