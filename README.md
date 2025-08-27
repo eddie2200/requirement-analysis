@@ -79,7 +79,7 @@ Non-functional requirements describe **how the system should perform**. They foc
 - Documentation: Serve as part of the requirement specification for future reference.
 - Validation: Ensure that all user interactions and goals are considered during analysis.
 
-![Booking Use Case Diagram](images/alx-booking-uc.png)
+![Use Case Diagram](images/alx-booking-uc.png)
 ### Cases
 1. User with an account → Books and Pays
 
