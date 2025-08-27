@@ -44,9 +44,30 @@ Minimizes misunderstandings and misaligned expectations.
 - Requirement Elicitation: The process of gathering requirements from stakeholders through techniques like interviews, surveys, and observation.
 - Requirement Validation: The process of ensuring that gathered requirements are accurate, complete, feasible, and aligned with business goals.
 ## Types of Requirements
-There are two requirements for booking management project and they ae: 
-### Functional Requirements 
-### Non-functional Requirements
+
+### Functional Requirements
+Functional requirements describe **what the system should do** — the specific features, tasks, and interactions that fulfill the project goals.  
+These are directly tied to the user’s needs and the system’s core functionalities.  
+
+**Examples for Booking Management System:**
+- Users must be able to create an account and log in.
+- System should allow users to search for available BnBs using filters (location, price, amenities, dates).
+- Users should be able to view detailed property information (images, description, reviews).
+- System should allow users to book a property and proceed to checkout.
+- Payment must be processed securely via an external payment gateway.
+- Users should receive booking confirmation notifications (on-site and via email).
+
+### Non-Functional Requirements
+Non-functional requirements describe **how the system should perform**. They focus on the quality, performance, and constraints of the system, ensuring reliability and a positive user experience.  
+
+**Examples for Booking Management System:**
+- The booking system should load search results within **2 seconds**.
+- The system must handle at least **500 concurrent users** without crashing.
+- Sensitive data (passwords, payments) must be encrypted using SSL/TLS.
+- The platform should be available **99.9% uptime** annually.
+- The system must be mobile-responsive and work across all major browsers.
+- Confirmation emails should be delivered to the user within **5 minutes** after booking.
+
 ## Use Case Diagrams
 ***Use Case Diagrams*** are visual representations in UML (Unified Modeling Language) that show the interactions between actors (users or external systems) and a system to achieve specific goals (use cases). They focus on what the system should do rather than how it is implemented.
 
@@ -62,23 +83,23 @@ alx-booking-uc.png
 ### Cases
 1. User with an account → Books and Pays
 
-User logs in → navigates to homepage → searches for a BnB → finds desired BnB → books and completes payment successfully.
+***User logs in → navigates to homepage → searches for a BnB → finds desired BnB → books and completes payment successfully.***
 
 2. User with an account → Does Not Pay
 
-User logs in → searches for a BnB → finds desired BnB → attempts booking but does not pay → system returns user to homepage.
+***User logs in → searches for a BnB → finds desired BnB → attempts booking but does not pay → system returns user to homepage.***
 
 3. New User → Account Creation Path
 
-User does not have an account → creates a new account → logs in → follows flow of Case 1 (books and pays) OR follows flow of Case 2 (does not pay).
+***User does not have an account → creates a new account → logs in → follows flow of Case 1 (books and pays) OR follows flow of Case 2 (does not pay).***
 
 4. Guest User → Must Sign Up/Log In Before Booking
 
-User does not have an account → chooses not to create one → navigates homepage and finds a BnB → system prompts sign-up/log-in before allowing booking.
+***User does not have an account → chooses not to create one → navigates homepage and finds a BnB → system prompts sign-up/log-in before allowing booking.***
 
 5. User Cannot Find Desired BnB
 
-User logs in (or browses homepage) → searches for a BnB → no suitable results → system returns user to homepage.
+***User logs in (or browses homepage) → searches for a BnB → no suitable results → system returns user to homepage.***
 ### actors
 - Users
 - System admin managers
@@ -87,23 +108,19 @@ User logs in (or browses homepage) → searches for a BnB → no suitable result
 ## Acceptance Criteria
 Acceptance criteria are the predefined conditions that a software product or feature must meet to be considered complete and acceptable by stakeholders. They ensure that requirements are clear, testable, and measurable, bridging the gap between business needs and technical implementation.
 
-### Importance:
+***Importance:***
 
 - Provide clarity on what the system should do.
-
 - Help in avoiding misunderstandings between stakeholders, developers, and testers.
-
 - Form the basis for test cases and quality assurance.
-
 - Allow teams to determine the “done” status of a feature.
-
 - Ensure the system meets user expectations and business goals.
 
 ### Example: Acceptance Criteria for Checkout Feature
 
 Feature: Checkout in the Booking Management System
 
-### Acceptance Criteria:
+***Acceptance Criteria:***
 
 - User must be logged in to proceed with checkout.
 - System must display the booking summary (property details, price, dates).
