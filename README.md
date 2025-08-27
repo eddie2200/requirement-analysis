@@ -80,6 +80,7 @@ Non-functional requirements describe **how the system should perform**. They foc
 - Validation: Ensure that all user interactions and goals are considered during analysis.
 
 ![Use Case Diagram](images/alx-booking-uc.png)
+
 ### Cases
 1. User with an account → Books and Pays
 
